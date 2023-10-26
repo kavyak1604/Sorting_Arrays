@@ -29,6 +29,27 @@ a)Bubble sort<br>
 8)Sorting the elements in ascending order requires the implementation of an algorithm. The code in this instance use a straightforward selection sort method.<br>
 9)End<br>
 b)Selection sort<br>
+1)Start<br>
+2)Create a function selectionSort that takes an integer array arr as a parameter:<br>
+a. Initialize integer variables i, j, and lst.<br>
+b. Use an outer loop to iterate over the array from index 0 to the second-to-last index (i from 0 to 3).<br>
+c. Within the outer loop, initialize lst to the current value of i.<br>
+d. Use an inner loop to iterate over the array from the next index to the last index (j from i+1 to 4).<br>
+e. Inside the inner loop, check if the element at index j is less than the element at index lst. If true, update lst to the value of j.<br>
+f. After the inner loop, check if lst is not equal to i (indicating that a smaller element was found). If true, swap the elements at indices lst and i in the array.<br>
+3)Create a function printArr that takes an integer array arr as a parameter:<br>
+a. Initialize an integer variable i.<br>
+b. Use a loop to iterate over the array from index 0 to 4 (i from 0 to 4).<br>
+c. Inside the loop, print the element at index i followed by a space.<br>
+4)In the main function:<br>
+a. Declare an integer array arr with a size of 5 to store the user's numbers.<br>
+b. Prompt the user to enter 5 numbers, one by one, and read them into the arr array.<br>
+c. Call the selectionSort function, passing the arr array as a parameter, to sort the array in ascending order.<br>
+d. Call the printArr function, passing the arr array as a parameter, to print the sorted array.<br>
+5)End<br>
+
+## CONCLUSION 
+Hence in this repository programs using bubble sort and selection sorting of arrays were performed.
 
 
 
