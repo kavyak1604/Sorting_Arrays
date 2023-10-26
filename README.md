@@ -19,5 +19,17 @@ Auxiliary Space: O(1) as the only extra memory used is for temporary variables w
 
 ## ALGORITHM
 a)Bubble sort
+1)Start<br>
+2)Create an integer variable called n to hold the array's size.<br>
+3)Request that the user input the array's size and read the value into the variable n.<br>
+4)To store the elements, declare an integer array arr of size n.<br>
+5)Ask the user to enter each element in the array one at a time, then use a loop to read them into the arr array:<br>
+6)Start a for loop from 0 to n-1 by setting the loop variable i.<br>
+7)Show a prompt within the loop asking the user to input the i-th element and read it into arr[i].<br>
+8)Sorting the elements in ascending order requires the implementation of an algorithm. The code in this instance use a straightforward selection sort method.<br>
+9)End<br>
+b)Selection sort
+
+
 
 
